@@ -77,12 +77,17 @@ The name of the network of databases and the web of links it forms is named "Web
 
 ### Management
 #### Alpha
+##### Source Code
+##### Social Networks
 #### Beta
 #### Stable
 ##### Versioning
 
+### Contributors
+
 ## WebX
 ### Social networks
+### Contributors
 
 ## Legit DAO
 ### Phases
@@ -93,3 +98,4 @@ The name of the network of databases and the web of links it forms is named "Web
 #### Infrastructure usage
 #### Moving to another infrastructure
 ### Social networks
+### Contributors
