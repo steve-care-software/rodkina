@@ -17,7 +17,7 @@ The name of the network of databases and the web of links it forms is named "Web
 ###### Requesting a refund
 ##### Infrastructure voting
 ##### Infrastructure usage
-##### Leaving the infrastructure
+##### Moving to another infrastructure
 
 ### Programming language syntax
 
