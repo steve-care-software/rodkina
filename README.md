@@ -28,6 +28,19 @@ The name of the network of databases and the web of links it forms is named "Web
 ##### Map
 ##### Key Store
 ##### Grammar
+###### Variable
+The first letter of a variable must be a lower-case letter, then can be followed by any letter, lower-case or upper-case.  A variable can contain only one (1) letter.
+```
+// valid one-letter variable:
+a
+
+// valid variable where the second letter is upper-case:
+aVariable
+
+// valid variable where the second letter is lower-case:
+variable
+
+```
 ###### Execution
 ###### Database
 ###### Tests
