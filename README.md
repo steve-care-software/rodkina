@@ -10,6 +10,12 @@ At last, the evolution of the language, the path of links between databases and 
 ### Naming convention
 The name of the network of databases and the web of links it forms is named "WebX".  The DAO organization that we are building is named "Legit DAO".
 
+### Legit DAO
+#### Pre-infrastructure
+#### Infrastructure voting
+#### Infrastructure usage
+#### Leaving the infrastructure
+
 ### Programming language syntax
 
 #### Error Management
