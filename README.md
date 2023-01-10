@@ -44,7 +44,7 @@ variable
 
 ```
 ###### Value
-The value is represented by an unsigned integer and therefore must be a number between 0 and 255 (range: [0,255]).  It must always be assigned to a variable in order to be used in the composition of tokens.
+The "value" is represented by an unsigned integer and therefore must be a number between 0 and 255 (range: [0,255]).  It must always be assigned to a variable in order to be used in the composition of tokens.
 ```
 // valid assignment of the value '122' to a variable:
 myVariable: 122;
@@ -52,9 +52,9 @@ myVariable: 122;
 ```
 
 ###### Compose
-The compose represents a token that is composed by values and other compose tokens.  A compose always contains a specific value.  Each element of its composition is repeated only once if there is no occurences following the element.  If there is an occurence value, the element is repeated by this amount of time.  The occurence is an unsigned integer.
+The "compose" is a series of "value" and other "compose" elements exclusively.  A "compose" always contains a specific series of bytes.  Each element of its composition is repeated only once if there is no occurence following the element.  If there is an "occurence" value, the element is repeated by this amount of time.  The "occurence" is an unsigned integer.
 
-Please note that the element of a compose token is composed of a variable name, a pipe and an occurence.  The pipe (|) only acts as a syntaxic separator.  If the element is only repeated once, the occurence one (1) and its pipe (|) is optional.
+Please note each element of a "compose" is created using a variable name, a pipe (|) and an occurence.  The pipe (|) only acts as a syntaxic separator.  If the element is only repeated once, the occurence one (1) and its pipe (|) is optional.
 ```
 // compose the world "actually"
 wordActually: letterA letterC letterT letterU letterA letterL|2 letterY|1;
