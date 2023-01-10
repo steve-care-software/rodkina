@@ -14,49 +14,52 @@ The name of the network of databases and the web of links it forms is named "Web
 
 ## Rodkina
 
+### Embedding the engine
+#### Golang
 
-### Error Management
+### Syntax
+#### Error Management
 
-### Types
-#### Numbers
-##### Byte
-##### Signed Integer
-##### Unsigned Integer
-##### Floating-point
-#### Boolean
-#### List
-#### Set
-#### Sorted Set
-#### Map
-#### Key Store
-#### Grammar
-##### Execution
-##### Database
-##### Tests
+#### Types
+##### Numbers
+###### Byte
+###### Signed Integer
+###### Unsigned Integer
+###### Floating-point
+##### Boolean
+##### List
+##### Set
+##### Sorted Set
+##### Map
+##### Key Store
+##### Grammar
+###### Execution
+###### Database
+###### Tests
 
-#### Query
-##### Execution
-##### Database
-##### Tests
-##### Type Casting
+##### Query
+###### Execution
+###### Database
+###### Tests
+###### Type Casting
 
-#### Program
-##### Execution
-##### Database
-##### Tests
-##### Type Casting
+##### Program
+###### Execution
+###### Database
+###### Tests
+###### Type Casting
 
-### Operator
-#### Arithmetic
-#### Relational
-#### Logical
-#### Bitwise Shift
+#### Operator
+##### Arithmetic
+##### Relational
+##### Logical
+##### Bitwise Shift
 
-### Scope
-### Assignment
-### Condition
-### Loop
-### Function
+#### Scope
+#### Assignment
+#### Condition
+#### Loop
+#### Function
 
 
 ## WebX
