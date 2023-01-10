@@ -5,7 +5,7 @@ It also contains a built-in [database](https://en.wikipedia.org/wiki/Database) s
 
 The databases are state-based: each database contains a [blockchain](https://en.wikipedia.org/wiki/Blockchain) that represents the previous modification of its internal data.  Every time data is added, deleted or modified on a database, a list of [atomic transactions](https://en.wikipedia.org/wiki/Atomicity_(database_systems)) are send to the database and a block of transactions is formed.  Each data modification is made using a transaction and each block of transactions represents an atomic modification of data, which represents a state of the database that can be easily navigated using built-in Rodkina's programming language syntax.
 
-At last, the evolution of the language, the path of links between databases and the database interfaces will be managed and voted on by the community, using a software written in Rodkina that use decentralized databases and a human-usable interface which form our DAO ([decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization)).
+At last, the evolution of the language, the path of links between databases and the database interfaces is managed and voted on by the community, using a software written in Rodkina that use decentralized databases and a human-usable interface which form our DAO ([decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization)).
 
 ### Naming convention
 In this document, the name of the network of databases and the web of links it forms is named "WebX".  The DAO organization that we are building is named "Legit DAO".
