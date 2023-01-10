@@ -11,3 +11,46 @@ At last, the evolution of the language, the path of links between databases and 
 The name of the network of databases and the web of links it forms is named "WebX".  The DAO organization that we are building is named "Legit DAO".
 
 ### Programming language syntax
+
+#### Error Management
+
+#### Types
+##### Numbers
+###### Byte
+###### Signed Integer
+###### Unsigned Integer
+###### Floating-point
+##### Boolean
+##### List
+##### Set
+##### Sorted Set
+##### Map
+##### Key Store
+##### Grammar
+###### Execution
+###### Database
+###### Tests
+
+##### Query
+###### Execution
+###### Database
+###### Tests
+###### Type Casting
+
+##### Program
+###### Execution
+###### Database
+###### Tests
+###### Type Casting
+
+#### Operator
+##### Arithmetic
+##### Relational
+##### Logical
+##### Bitwise Shift
+
+#### Scope
+#### Assignment
+#### Condition
+#### Loop
+#### Function
