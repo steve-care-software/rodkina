@@ -10,19 +10,6 @@ At last, the evolution of the language, the path of links between databases and 
 ### Naming convention
 The name of the network of databases and the web of links it forms is named "WebX".  The DAO organization that we are building is named "Legit DAO".
 
-### Legit DAO
-#### Phases
-##### Pre-infrastructure
-###### Group funds handling
-###### Requesting a refund
-##### Infrastructure voting
-##### Infrastructure usage
-##### Moving to another infrastructure
-#### Social networks
-
-### WebX
-#### Social networks
-
 ### Rodkina
 
 #### Error Management
@@ -67,3 +54,17 @@ The name of the network of databases and the web of links it forms is named "Web
 #### Condition
 #### Loop
 #### Function
+
+
+### WebX
+#### Social networks
+
+### Legit DAO
+#### Phases
+##### Pre-infrastructure
+###### Group funds handling
+###### Requesting a refund
+##### Infrastructure voting
+##### Infrastructure usage
+##### Moving to another infrastructure
+#### Social networks
