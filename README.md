@@ -30,6 +30,16 @@ The name of the network of databases and the web of links it forms is named "Web
 ##### Map
 ##### Key Store
 ##### Grammar
+The grammar is a schema that makes it easy and visual to generate data (using compose elements) or combine arbitrary data to the grammar to create an AST and therefore validate the composition of the data and order it in a logical way.
+
+The following section explains:
+* The composition of each part of the grammar structure
+* How to assign a grammar instance to a variable
+* How to compose an AST by combining arbitrary data with a grammar instance
+* How to save a grammar instance into the database
+* How to retrieve a grammar instance from the database
+* How to execute the token tests of a grammar instance and receive its results and coverage reports
+
 ###### Variable
 The first letter of a variable must be a lower-case letter, then can be followed by any letter, lower-case or upper-case.  A variable can contain only one (1) letter.
 ```
