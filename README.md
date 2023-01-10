@@ -13,6 +13,8 @@ The name of the network of databases and the web of links it forms is named "Web
 ### Legit DAO
 #### Phases
 ##### Pre-infrastructure
+###### Group funds handling
+###### Requesting a refund
 ##### Infrastructure voting
 ##### Infrastructure usage
 ##### Leaving the infrastructure
