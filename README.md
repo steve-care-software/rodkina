@@ -10,12 +10,7 @@ At last, the evolution of the language, the path of links between databases and 
 ## Naming convention
 The name of the network of databases and the web of links it forms is named "WebX".  The DAO organization that we are building is named "Legit DAO".
 
-## Management
-
 ## Rodkina
-
-### Embedding the engine
-#### Golang
 
 ### Syntax
 #### Error Management
@@ -61,6 +56,30 @@ The name of the network of databases and the web of links it forms is named "Web
 #### Loop
 #### Function
 
+### Architecture
+#### Applications
+##### Abstract-Syntax-Tree
+##### Query
+##### Interpreter
+##### Database
+##### Cryptography
+#### Instances
+##### Grammar
+##### Query
+#### Modules
+#### Language
+
+### Compiling libraries
+#### Embedding
+##### Web Assembly
+##### C/C++
+##### Python
+
+### Management
+#### Alpha
+#### Beta
+#### Stable
+##### Versioning
 
 ## WebX
 ### Social networks
