@@ -68,7 +68,7 @@ The "compose" is a series of "value" and other "compose" elements exclusively.  
 
 Please note each element of a "compose" is created using a variable name, a pipe (|) and an occurence.  The pipe (|) only acts as a syntaxic separator.  If the element is only repeated once, the occurence one (1) and its pipe (|) is optional.
 
-There is no test suites for values.
+There is no test suites for "compose".
 ```
 // compose the world "actually"
 wordActually: letterA letterC letterT letterU letterA letterL|2 letterY|1;
