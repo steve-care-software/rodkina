@@ -81,57 +81,6 @@ func (app *grammar) Execute() (grammars.Grammar, error) {
 		Now()
 }
 
-func (app grammar) channels() grammars.Channels {
-	list := []grammars.Channel{
-		app.channelFromValue("space", []byte(" ")[0]),
-		app.channelFromValue("tab", []byte("\t")[0]),
-		app.channelFromValue("newLine", []byte("\n")[0]),
-		app.channelFromValue("retChar", []byte("\r")[0]),
-		app.channelFromToken(
-			app.tokenFromBlock("singleLineComment",
-				app.blockFromlines([]grammars.Line{
-					app.lineFromElements([]grammars.Element{
-						app.elementFromToken(
-							app.allCharacterToken("doubleSlash", "//"),
-							app.cardinalityOnce(),
-						),
-						app.elementFromEverything(
-							app.everythingWithoutEscape(
-								"everythingExceptEndOfLine",
-								app.anyElementToken(
-									"endOfLineSpaces",
-									[]grammars.Element{
-										app.elementFromValue([]byte("\n")[0]),
-										app.elementFromValue([]byte("\r")[0]),
-									},
-									app.suites(map[string]bool{
-										"\n": true,
-										"\r": true,
-									}),
-								),
-							),
-						),
-					}),
-				}),
-				app.suites(map[string]bool{
-					`// this is a comment
-					`: true,
-				}),
-			),
-		),
-	}
-
-	ins, err := app.channelsBuilder.Create().
-		WithList(list).
-		Now()
-
-	if err != nil {
-		panic(err)
-	}
-
-	return ins
-}
-
 func (app *grammar) grammarToken() grammars.Token {
 	return app.tokenFromBlock(
 		"grammar",
@@ -1254,32 +1203,6 @@ func (app *grammar) cardinality(min uint, pMax *uint) cardinalities.Cardinality 
 	return ins
 }
 
-func (app *grammar) channelFromValue(name string, value byte) grammars.Channel {
-	return app.channelFromToken(
-		app.tokenFromBlock(
-			name,
-			app.blockFromlines([]grammars.Line{
-				app.lineFromElements([]grammars.Element{
-					app.elementFromValue(value),
-				}),
-			}),
-			app.suites(map[string]bool{}),
-		),
-	)
-}
-
-func (app grammar) channelFromToken(token grammars.Token) grammars.Channel {
-	ins, err := app.channelBuilder.Create().
-		WithToken(token).
-		Now()
-
-	if err != nil {
-		panic(err)
-	}
-
-	return ins
-}
-
 func (app *grammar) suites(values map[string]bool) grammars.Suites {
 	list := []grammars.Suite{}
 	for str, isValid := range values {
@@ -1343,6 +1266,83 @@ func (app *grammar) compose(values []byte) grammars.Compose {
 	}
 
 	ins, err := app.composeBuilder.Create().WithName(string(values)).WithList(elements).Now()
+	if err != nil {
+		panic(err)
+	}
+
+	return ins
+}
+
+func (app *grammar) channelFromValue(name string, value byte) grammars.Channel {
+	return app.channelFromToken(
+		app.tokenFromBlock(
+			name,
+			app.blockFromlines([]grammars.Line{
+				app.lineFromElements([]grammars.Element{
+					app.elementFromValue(value),
+				}),
+			}),
+			app.suites(map[string]bool{}),
+		),
+	)
+}
+
+func (app grammar) channelFromToken(token grammars.Token) grammars.Channel {
+	ins, err := app.channelBuilder.Create().
+		WithToken(token).
+		Now()
+
+	if err != nil {
+		panic(err)
+	}
+
+	return ins
+}
+
+func (app grammar) channels() grammars.Channels {
+	list := []grammars.Channel{
+		app.channelFromValue("space", []byte(" ")[0]),
+		app.channelFromValue("tab", []byte("\t")[0]),
+		app.channelFromValue("newLine", []byte("\n")[0]),
+		app.channelFromValue("retChar", []byte("\r")[0]),
+		app.channelFromToken(
+			app.tokenFromBlock("singleLineComment",
+				app.blockFromlines([]grammars.Line{
+					app.lineFromElements([]grammars.Element{
+						app.elementFromToken(
+							app.allCharacterToken("doubleSlash", "//"),
+							app.cardinalityOnce(),
+						),
+						app.elementFromEverything(
+							app.everythingWithoutEscape(
+								"everythingExceptEndOfLine",
+								app.anyElementToken(
+									"endOfLineSpaces",
+									[]grammars.Element{
+										app.elementFromValue([]byte("\n")[0]),
+										app.elementFromValue([]byte("\r")[0]),
+									},
+									app.suites(map[string]bool{
+										"\n": true,
+										"\r": true,
+									}),
+								),
+							),
+						),
+					}),
+				}),
+				app.suites(map[string]bool{
+					`// this is a comment
+					`: true,
+				}),
+			),
+		),
+	}
+
+	ins, err := app.channelsBuilder.Create().
+		WithList(list).
+		Now()
+
 	if err != nil {
 		panic(err)
 	}
