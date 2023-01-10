@@ -1,1 +1,4 @@
-# rodkina
+# Rodkina is a network based data focused programming language
+At its core, Rodkina is a programming language that focus on manipulating data.  It contains a built-in AST (Abstract-Syntax-Tree) engine that enables complex data lexing using a visual syntax, a parsing engine that helps convert an AST into a usable logic structure, an instruction engine that makes it easy to convert data into logic, a compiler that can easily convert instructions into an executable program and an interpreter that can execute a program.
+
+It also contains a built-in database system that makes it easy to manage data on disk and then share it with other people using an identity system that enables a decentralized management of roles and permissions on these databases.  Therefore, the Rodkina users forms a network of databases that can be queried using the built-in query syntax of the language.
