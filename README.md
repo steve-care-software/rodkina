@@ -19,7 +19,7 @@ The name of the network of databases and the web of links it forms is named "Web
 ##### Infrastructure usage
 ##### Moving to another infrastructure
 
-### Programming language syntax
+### Rodkina's syntax
 
 #### Error Management
 
