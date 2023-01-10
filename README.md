@@ -7,64 +7,67 @@ The databases are state-based: each database contains a [blockchain](https://en.
 
 At last, the evolution of the language, the path of links between databases and the database interfaces is managed and voted on by the community, using a software written in Rodkina that use decentralized databases and a human-usable interface which form our DAO ([decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization)).
 
-### Naming convention
+## Naming convention
 The name of the network of databases and the web of links it forms is named "WebX".  The DAO organization that we are building is named "Legit DAO".
 
-### Rodkina
+## Management
 
-#### Error Management
-
-#### Types
-##### Numbers
-###### Byte
-###### Signed Integer
-###### Unsigned Integer
-###### Floating-point
-##### Boolean
-##### List
-##### Set
-##### Sorted Set
-##### Map
-##### Key Store
-##### Grammar
-###### Execution
-###### Database
-###### Tests
-
-##### Query
-###### Execution
-###### Database
-###### Tests
-###### Type Casting
-
-##### Program
-###### Execution
-###### Database
-###### Tests
-###### Type Casting
-
-#### Operator
-##### Arithmetic
-##### Relational
-##### Logical
-##### Bitwise Shift
-
-#### Scope
-#### Assignment
-#### Condition
-#### Loop
-#### Function
+## Rodkina
 
 
-### WebX
-#### Social networks
+### Error Management
 
-### Legit DAO
-#### Phases
-##### Pre-infrastructure
-###### Group funds handling
-###### Requesting a refund
-##### Infrastructure voting
-##### Infrastructure usage
-##### Moving to another infrastructure
-#### Social networks
+### Types
+#### Numbers
+##### Byte
+##### Signed Integer
+##### Unsigned Integer
+##### Floating-point
+#### Boolean
+#### List
+#### Set
+#### Sorted Set
+#### Map
+#### Key Store
+#### Grammar
+##### Execution
+##### Database
+##### Tests
+
+#### Query
+##### Execution
+##### Database
+##### Tests
+##### Type Casting
+
+#### Program
+##### Execution
+##### Database
+##### Tests
+##### Type Casting
+
+### Operator
+#### Arithmetic
+#### Relational
+#### Logical
+#### Bitwise Shift
+
+### Scope
+### Assignment
+### Condition
+### Loop
+### Function
+
+
+## WebX
+### Social networks
+
+## Legit DAO
+### Phases
+#### Pre-infrastructure
+##### Group funds handling
+##### Requesting a refund
+#### Infrastructure voting
+#### Infrastructure usage
+#### Moving to another infrastructure
+### Social networks
