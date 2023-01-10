@@ -43,6 +43,13 @@ aVariable
 variable
 
 ```
+###### Value
+The value is represented by an unsigned integer and therefore must be a number between 0 and 255 (range: [0,255]).  It must always be assigned to a variable in order to be used in the composition of tokens.
+```
+// valid assignment of the value '122' to a variable:
+myVariable = 122;
+
+```
 ###### Execution
 ###### Database
 ###### Tests
