@@ -8,6 +8,6 @@ The databases are state-based: each database contains a [blockchain](https://en.
 At last, the evolution of the language, the path of links between databases and the database interfaces is managed and voted on by the community, using a software written in Rodkina that use decentralized databases and a human-usable interface which form our DAO ([decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization)).
 
 ### Naming convention
-In this document, the name of the network of databases and the web of links it forms is named "WebX".  The DAO organization that we are building is named "Legit DAO".
+The name of the network of databases and the web of links it forms is named "WebX".  The DAO organization that we are building is named "Legit DAO".
 
 ### Programming language syntax
