@@ -59,7 +59,7 @@ Please note each element of a "compose" is created using a variable name, a pipe
 // compose the world "actually"
 wordActually: letterA letterC letterT letterU letterA letterL|2 letterY|1;
 
-// values:
+// values, where each byte is a ASCII representation of a letter:
 letterA: 97;
 letterC: 99;
 letterT: 116;
