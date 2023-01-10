@@ -13,6 +13,8 @@ The name of the network of databases and the web of links it forms is named "Web
 ## Rodkina
 
 ### Syntax
+#### Comments
+
 #### Error Management
 
 #### Types
