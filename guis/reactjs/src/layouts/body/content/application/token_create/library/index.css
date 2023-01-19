@@ -1,0 +1,14 @@
+#library {margin: 0px 20px 20px 20px;}
+#library .toggled .sidebar-content {display: none;}
+
+
+#library .accordion {margin: 10px;}
+#library .accordion .accordion-item {border: 0; border-radius: 0px;}
+#library .accordion .accordion-item .accordion-header {font-size: 12px; }
+#library .accordion .accordion-item .accordion-header .accordion-button {font-size: 12px;  margin: 0px; padding: 5px;}
+
+#library .accordion .accordion-item .accordion-body {font-size: 10px;  margin: 0; padding: 0;}
+#library .accordion .accordion-item .accordion-body table {margin: 0;}
+#library .accordion .accordion-item .accordion-body table button {font-size: 12px; margin: 0px; padding: 2px;}
+#library .accordion .accordion-item .accordion-body .add {font-size: 16px;  border-radius: 0; width: 100%; margin: 0;}
+#library .accordion .accordion-item .accordion-body .add span {font-size: 12px; padding-left: 5px;}
