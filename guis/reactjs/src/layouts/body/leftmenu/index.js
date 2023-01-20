@@ -22,21 +22,38 @@ export class LeftMenu extends React.Component {
 
                 <CDBSidebarContent className="sidebar-content">
                     <CDBSidebarMenu>
-                        <NavLink to="/" className="activeClicked">
+                        <NavLink to="/">
+                            <CDBSidebarMenuItem icon="columns">Home</CDBSidebarMenuItem>
+                        </NavLink>
+                        <NavLink to="/">
                             <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
                         </NavLink>
-                        <NavLink to="/tables" className="activeClicked">
-                            <CDBSidebarMenuItem icon="table">Tables</CDBSidebarMenuItem>
+                        <NavLink to="/">
+                            <CDBSidebarMenuItem icon="columns">Profiles</CDBSidebarMenuItem>
                         </NavLink>
-                        <NavLink to="/profile" className="activeClicked">
-                            <CDBSidebarMenuItem icon="user">Profile page</CDBSidebarMenuItem>
+                        <NavLink to="/">
+                            <CDBSidebarMenuItem icon="columns">Components</CDBSidebarMenuItem>
                         </NavLink>
-                        <NavLink to="/analytics" className="activeClicked">
-                            <CDBSidebarMenuItem icon="chart-line">Analytics</CDBSidebarMenuItem>
+                        <NavLink to="/">
+                            <CDBSidebarMenuItem icon="columns">Responses</CDBSidebarMenuItem>
                         </NavLink>
-
-                        <NavLink to="/hero404" target="_blank" className="activeClicked">
-                            <CDBSidebarMenuItem icon="exclamation-circle">404 page</CDBSidebarMenuItem>
+                        <NavLink to="/">
+                            <CDBSidebarMenuItem icon="columns">Requests</CDBSidebarMenuItem>
+                        </NavLink>
+                        <NavLink to="/">
+                            <CDBSidebarMenuItem icon="columns">Instances</CDBSidebarMenuItem>
+                        </NavLink>
+                        <NavLink to="/">
+                            <CDBSidebarMenuItem icon="columns">Databases</CDBSidebarMenuItem>
+                        </NavLink>
+                        <NavLink to="/">
+                            <CDBSidebarMenuItem icon="columns">Queries</CDBSidebarMenuItem>
+                        </NavLink>
+                        <NavLink to="/">
+                            <CDBSidebarMenuItem icon="columns">Composes</CDBSidebarMenuItem>
+                        </NavLink>
+                        <NavLink to="/" className="activeClicked">
+                            <CDBSidebarMenuItem icon="columns">Grammars</CDBSidebarMenuItem>
                         </NavLink>
                     </CDBSidebarMenu>
                 </CDBSidebarContent>
