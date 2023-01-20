@@ -18,7 +18,7 @@ export class LeftMenu extends React.Component {
             <CDBSidebar textColor="#fff" backgroundColor="#333">
                 <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
                     <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
-                        Steve Care ™
+                        WebX Network
                     </a>
                 </CDBSidebarHeader>
 
@@ -61,8 +61,9 @@ export class LeftMenu extends React.Component {
                 </CDBSidebarContent>
 
                 <CDBSidebarFooter style={{ textAlign: 'center' }}>
-                    <a href="/">
-                        <img src="assets/logo.svg" width="151" height="192" alt="Steve Care Software" class="logo" />
+                    <a href="https://steve.care"  class="logo">
+                        <img src="assets/logo.svg" width="151" height="192" alt="Steve Care Software" />
+                        <span>Steve Care</span>
                     </a>
                 </CDBSidebarFooter>
         </CDBSidebar>

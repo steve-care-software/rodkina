@@ -1,0 +1,13 @@
+#grammar h1 {padding: 10px 0px 10px 0px; margin: 5px 0px 5px 0px; }
+#grammar h2 {padding: 5px; margin: 2px 0px 2px 0px; background-color: #eee; border-radius: 10px;}
+
+#grammar p {
+    font: 20px source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;;
+    margin: 0px;
+    line-height: 32px;
+    letter-spacing: -0.003em;
+}
+
+#grammar .token {padding-top: 20px;}
+
+#grammar #tokenslist {padding: 20px 0px 20px 0px; margin: 20px 0px 20px 0px; border-top: 1px dashed #333; }

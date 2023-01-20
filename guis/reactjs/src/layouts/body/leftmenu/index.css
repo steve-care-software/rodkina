@@ -1,2 +1,5 @@
-#leftmenu .logo {background-color: #ffffff; position: relative; top: -50px; }
+#leftmenu .logo {position: relative; top: -10px; }
+#leftmenu .logo:hover {text-decoration: none; }
+#leftmenu .logo img {background-color: #ffffff; }
+#leftmenu .logo span { display: block; color: #fff;  font-family: Megrim; margin-top: 10px; text-align: center; }
 #leftmenu .sidebar-content {padding: 0px; }

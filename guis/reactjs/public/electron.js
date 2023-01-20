@@ -4,6 +4,7 @@ const isDev = require('electron-is-dev');
 function createWindow() {
     // Create the browser window.
     const win = new BrowserWindow({
+        title: "WebX Network",
         width: 2048,
         height: 1456,
         webPreferences: {

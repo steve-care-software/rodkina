@@ -1,5 +1,19 @@
+@font-face {
+    font-family: "Nunito";
+    src: local("Nunito"),
+     url("./assets/fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Megrim";
+    src: local("Megrim"),
+     url("./assets/fonts/Megrim-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font: 16px Nunito, Georgia, Cambria, "Times New Roman", Times, serif;;
   margin: 0px;
 }
 
