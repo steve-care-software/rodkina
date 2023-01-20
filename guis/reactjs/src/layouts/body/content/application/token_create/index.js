@@ -18,7 +18,7 @@ class MainPanel extends React.Component {
 export class TokenCreate extends React.Component {
   render() {
     return (
-        <Container fluid>
+        <Container>
             <Row>
                 <Col><MainPanel /></Col>
                 <Col md="auto"><Library /></Col>

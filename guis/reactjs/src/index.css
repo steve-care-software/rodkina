@@ -3,4 +3,7 @@ body {
   margin: 0px;
 }
 
+a {color: #DE3163; text-decoration: none;}
+a:hover {color: #FF69B4; text-decoration: underline;}
+
 .bg-dark { background-color: #333333 !important; }

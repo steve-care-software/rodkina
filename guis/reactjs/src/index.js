@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import { TopMenu } from './layouts/topmenu/index.js';
 import { Body } from './layouts/body/index.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';

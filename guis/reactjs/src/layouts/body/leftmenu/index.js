@@ -9,6 +9,8 @@ import {
 } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
 
+import './index.css';
+
 export class LeftMenu extends React.Component {
   render() {
     return (
@@ -16,56 +18,52 @@ export class LeftMenu extends React.Component {
             <CDBSidebar textColor="#fff" backgroundColor="#333">
                 <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
                     <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
-                        Menu
+                        Steve Care ™
                     </a>
                 </CDBSidebarHeader>
 
                 <CDBSidebarContent className="sidebar-content">
                     <CDBSidebarMenu>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Home</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-house" iconSize="lg">Home</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-bar-chart" iconSize="lg">Dashboard</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Profiles</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-person" iconSize="lg">Profiles</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Components</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-box" iconSize="lg">Components</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Responses</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-chat-square-text" iconSize="lg">Responses</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Requests</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-arrow-down-square" iconSize="lg">Requests</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Instances</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-clouds" iconSize="lg">Instances</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Databases</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-database" iconSize="lg">Databases</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Queries</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-filter" iconSize="lg">Filters</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/">
-                            <CDBSidebarMenuItem icon="columns">Composes</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-plus-square" iconSize="lg">Composes</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/" className="activeClicked">
-                            <CDBSidebarMenuItem icon="columns">Grammars</CDBSidebarMenuItem>
+                            <CDBSidebarMenuItem icon="bi bi-spellcheck" iconSize="lg">Grammars</CDBSidebarMenuItem>
                         </NavLink>
                     </CDBSidebarMenu>
                 </CDBSidebarContent>
 
                 <CDBSidebarFooter style={{ textAlign: 'center' }}>
-                  <div
-                    style={{
-                      padding: '20px 5px',
-                    }}
-                  >
-                    Sidebar Footer
-                  </div>
+                    <a href="/">
+                        <img src="assets/logo.svg" width="151" height="192" alt="Steve Care Software" class="logo" />
+                    </a>
                 </CDBSidebarFooter>
         </CDBSidebar>
     </div>
