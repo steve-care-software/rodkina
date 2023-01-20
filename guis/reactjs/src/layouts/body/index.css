@@ -1,3 +1,2 @@
-#body .container-fluid { margin: 0px; padding: 0px; }
-#body .container-fluid .row .col {padding: 0px; margin: 0px;}
-#body .container-fluid .row .col-md-auto {padding: 0px; margin: 0px;}
+#body .row .col {padding: 0px; margin: 0px;}
+#body .row .col-md-auto {padding: 0px; margin: 0px;}

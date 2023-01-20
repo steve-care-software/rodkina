@@ -9,7 +9,7 @@ import './index.css';
 export class Content extends React.Component {
   render() {
     return (
-        <Container id="content" fluid>
+        <Container id="content" >
             <BreadcrumbMenu />
             <Application />
         </Container>
