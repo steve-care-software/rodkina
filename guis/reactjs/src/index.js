@@ -15,7 +15,6 @@ class Main extends React.Component {
     return (
         <Router>
             <div className="App">
-                <TopMenu />
                 <Body />
             </div>
         </Router>
