@@ -1,6 +1,8 @@
 package grammars
 
 import (
+	"github.com/steve-care-software/rodkina/instances/grammars/components"
+	"github.com/steve-care-software/rodkina/instances/grammars/tokens"
 	"github.com/steve-care-software/rodkina/libs/asts/domain/grammars"
 	"github.com/steve-care-software/rodkina/libs/asts/domain/grammars/cardinalities"
 	"github.com/steve-care-software/rodkina/libs/asts/domain/grammars/values"
@@ -8,7 +10,6 @@ import (
 
 const grammarTokenName = "grammar"
 
-const byteLength = 256
 const assignmentSign = ":"
 const everythingPrefixSign = "#"
 const everythingEscapePrefixSign = "!"
@@ -38,7 +39,9 @@ const externalTokenPrefix = "{"
 const externalTokenSuffix = "{"
 
 // NewGrammar creates a new grammar instance
-func NewGrammar() grammars.Grammar {
+func NewGrammar() Grammar {
+	component := components.NewComponent()
+	token := tokens.NewToken()
 	builder := grammars.NewBuilder()
 	channelsBuilder := grammars.NewChannelsBuilder()
 	channelBuilder := grammars.NewChannelBuilder()
@@ -56,7 +59,9 @@ func NewGrammar() grammars.Grammar {
 	composeElementBuilder := grammars.NewComposeElementBuilder()
 	valueBuilder := values.NewBuilder()
 	cardinalityBuilder := cardinalities.NewBuilder()
-	grammarIns := createGrammar(
+	return createGrammar(
+		component,
+		token,
 		builder,
 		channelsBuilder,
 		channelBuilder,
@@ -75,11 +80,10 @@ func NewGrammar() grammars.Grammar {
 		valueBuilder,
 		cardinalityBuilder,
 	)
+}
 
-	ins, err := grammarIns.Execute()
-	if err != nil {
-		panic(err)
-	}
-
-	return ins
+// Grammar represents the grammar
+type Grammar interface {
+	Grammar() grammars.Grammar
+	GrammarToken() grammars.Token
 }

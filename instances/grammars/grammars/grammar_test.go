@@ -8,7 +8,7 @@ import (
 
 func TestGrammar_coverage_Success(t *testing.T) {
 	grammarApp := grammar_applications.NewApplication()
-	ins := NewGrammar()
+	ins := NewGrammar().Grammar()
 	coverages, err := grammarApp.Coverages(ins)
 	if err != nil {
 		t.Errorf("the error was expected to be nil, error returned: %s", err.Error())
@@ -40,7 +40,7 @@ func TestGrammar_coverage_Success(t *testing.T) {
 
 func TestGrammar_withScript_Success(t *testing.T) {
 	grammarApp := grammar_applications.NewApplication()
-	ins := NewGrammar()
+	ins := NewGrammar().Grammar()
 	script := `
 		// this is the root entry point:
 		@myValue;
